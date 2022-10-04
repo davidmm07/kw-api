@@ -2,7 +2,7 @@ from typing import List
 from app.dependencies.error_messages import BOUNDARY_ARRAY_ERROR_MESSAGE, EMPTY_ARRAY_ERROR_MESSAGE
 from httpx import AsyncClient
 import pytest
-from app.main import app
+from app.app.main import app
 
 
 @pytest.mark.asyncio

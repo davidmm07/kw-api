@@ -5,15 +5,12 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from pydantic import BaseSettings
 from mongomock_motor import AsyncMongoMockClient
 from ..models.record import Record
-
+import os
 
 class Settings(BaseSettings):
     # database configurations
-    DATABASE_URL: Optional[str] = None
-    ENVIRONMENT: Optional[str] = ""
-    class Config:
-        env_file = "./app/.env"
-        orm_mode = True
+    DATABASE_URL: Optional[str] = os.getenv("DATABASE_URL", "")
+    ENVIRONMENT: Optional[str] = os.getenv("ENVIRONMENT", "test")
 
 
 async def initiate_database():

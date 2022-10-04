@@ -23,7 +23,6 @@ The API kw-api, built with FastApi, perform basic MongoDB operations with Motor 
 ```
 add environment variables
 ```bash
- cd app/
  touch .env
 ```
 
@@ -37,12 +36,7 @@ add environment variables
 #### 2.Run with docker :whale:
 
 
-1. Move to the folder
-```sh
-cd app/
-```
-
-2. Run container and check logs with:
+1. Run container and check logs with:
 ```sh
 docker-compose up -d && docker-compose logs -f
 ```

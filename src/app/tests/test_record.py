@@ -7,7 +7,7 @@ from beanie import Document, init_beanie
 from mongomock_motor import AsyncMongoMockClient
 from httpx import AsyncClient
 import pytest
-from app.main import app
+from app.app.main import app
 
 class Record(Document):
     array: List[int]
