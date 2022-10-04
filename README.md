@@ -12,8 +12,8 @@ The API kw-api, built with FastApi, perform basic MongoDB operations with Motor 
 ### :pick: Other tools used
 
 * [Beanie](https://beanie-odm.dev/)
-* [Motor-asyncio] (https://motor.readthedocs.io/en/stable/tutorial-asyncio.html)
-* [cdk] (https://docs.aws.amazon.com/cdk/v2/guide/home.html)
+* [Motor-asyncio](https://motor.readthedocs.io/en/stable/tutorial-asyncio.html)
+* [cdk](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
 ## How to run
 
 ## Installation dependencies
