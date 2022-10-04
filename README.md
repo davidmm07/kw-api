@@ -6,7 +6,7 @@ The API kw-api, built with FastApi, perform basic MongoDB operations with Motor 
 ### :pick: Previous Requirements
 * Python
 * Pip
-* Virtualenv
+* Create a Python Virtual Environment `python3 -m venv ~/.venv` or `virtualenv ~/.venv`
 * [Fast Api](https://fastapi.tiangolo.com/).
 
 ### :pick: Other tools used
