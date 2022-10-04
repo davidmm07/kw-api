@@ -44,7 +44,7 @@ cd app/
 
 2. Run container and check logs with:
 ```sh
-docker-compose up --d && docker-compose logs -f
+docker-compose up -d && docker-compose logs -f
 ```
 
 4. Verify that the containers are running
