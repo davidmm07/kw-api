@@ -57,6 +57,10 @@ docker ps
 ```sh
   pytest
 ```
+2. Run converage with 
+```sh
+    python -m pytest -vv  --cov=app  app/tests/*.py
+```
 
 ### Swagger section
 
