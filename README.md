@@ -33,7 +33,7 @@ add environment variables
  uvicorn app.main:app --reload
 ```
 
-#### 2.Run with docker :whale:
+#### 2. Or run with docker :whale:
 
 
 1. Run container and check logs with:
