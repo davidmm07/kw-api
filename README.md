@@ -19,7 +19,7 @@ The API kw-api, built with FastApi, perform basic MongoDB operations with Motor 
 ## Installation dependencies
 
 ```bash
- pip install --no-cache-dir --upgrade -r /app/requirements.txt
+ pip install --no-cache-dir --upgrade -r requirements.txt
 ```
 add environment variables
 ```bash
