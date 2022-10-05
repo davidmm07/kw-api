@@ -62,5 +62,9 @@ docker ps
 ```sh
  localhost:8000/docs 
 ```
+or with Docker
+```sh
+ localhost:3000/docs 
+```
 2. Check endpoints /smallest and /stats
 
