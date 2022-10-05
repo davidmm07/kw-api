@@ -30,7 +30,7 @@ add environment variables
 #### 1. Run with uvicorn
 
 ```bash
- uvicorn app.main:app --reload
+ cd src && uvicorn app.main:app --reload
 ```
 
 #### 2. Or run with docker :whale:
